@@ -29,6 +29,12 @@ body {
 			height: 100%;
 		}
 	}
+
+	& > #about .info-header {
+		width: 60%;
+		margin: auto;
+		border-bottom: 1px solid #ddd;
+	}
 }
 
 @media (max-width: 768px) {
