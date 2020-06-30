@@ -35,6 +35,25 @@ body {
 		margin: auto;
 		border-bottom: 1px solid #ddd;
 	}
+
+	& > #authors {
+		& img {
+			margin-top: -50px;
+		}
+
+		& .card {
+			transition: all 0.3s ease-in;
+		}
+
+		& .card:hover {
+			color: white;
+			background-color: $primary-color;
+
+			& .fab {
+				color: white;
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
