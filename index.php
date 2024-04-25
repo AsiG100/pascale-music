@@ -14,6 +14,15 @@
 </head>
 
 <body id="home">
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKQTFM4C4Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VKQTFM4C4Q');
+  </script>
   <nav class="navbar navbar-light navbar-expand-md py-4 fixed-top">
     <div class="container">
       <a href="#home" class="navbar-brand">
@@ -64,18 +73,11 @@
   <section id="newsletter" class="text-white bg-dark py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <button value="Get It Now" class="btn btn-block btn-lg btn-secondary">
-            <img src="img/ebay.png" width="50" height="50" alt="ebay" class="img-fluid d-none d-lg-block">
-            <!-- https://www.ebay.com/itm/304028314153?itmmeta=01HW72QR4YJ8PE8Z7KKFWMXFGH&hash=item46c97fea29:g:c2UAAOSwXu1gwi2v -->
-            Get It Now
-            </button>
-          </div>
-          <div class="col-md-6">
-            <button value="Get It Now" class="btn btn-block btn-lg btn-secondary">
-            <img src="img/ebay.png" width="50" height="50" alt="ebay" class="img-fluid d-none d-lg-block">
-            Get It Now
-            </button>
+          <div class="col-md-12">
+            <a class="btn btn-block btn-lg btn-secondary white" href="https://www.ebay.com/itm/304028314153?itmmeta=01HW72QR4YJ8PE8Z7KKFWMXFGH&hash=item46c97fea29:g:c2UAAOSwXu1gwi2v">
+              <img src="img/ebay.png" width="50" height="50" alt="ebay" class="img-fluid" >
+              Get It Now
+            </a>
           </div>
         </div>
       </div>

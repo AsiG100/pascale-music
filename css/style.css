@@ -37,6 +37,12 @@ body {
   .submitted {
     text-align: center;
   }
+  .white { 
+    background-color: white;
+    color: black; 
+    font-weight: 500;
+    height: 65px;
+  }
 
 @media (max-width: 768px) {
   #showcase {
